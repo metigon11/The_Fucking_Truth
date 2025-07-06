@@ -1,0 +1,250 @@
+@font-face { font-family: NewEdge666; src: url('fonts/NewEdge666-RegularRounded.otf'); } 
+@font-face { font-family: NewEdge666-ultralightrounded; src: url('fonts/NewEdge666-UltraLightRounded.otf');}
+@font-face { font-family: NewEdge666-ultralightroundedslanted; src: url('fonts/NewEdge666-UltraLightRoundedSlanted.otf');}
+@font-face { font-family: Serifbabe; src: url('fonts/SerifbabeALPHA-Regular.otf'); } 
+@font-face { font-family: Serifbabe; font-weight: italic; src: url('fonts/SerifbabeALPHA-RegularItalic.otf');}
+@font-face { font-family: CharlieScript; src: url('fonts/CharlieScript-Regular.otf'); } 
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #F6FF75;  
+  visibility: hidden; /* Hide content until fully loaded */
+  cursor: url('assets/cursor.png'); /* Custom cursor */
+}
+
+.overlay {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  cursor: pointer;
+  z-index: 10;
+  transition: opacity 0.3s ease;
+}
+
+.logo_small {
+  position: relative;
+  top: 5%;
+  left: 88%;
+  width: 10%;
+  height: auto;
+  z-index: -1;
+  margin-top: 10%;
+  margin-bottom: 2%;
+}
+
+.logo_big {
+  position: fixed;
+  top: -5%;
+  left: 2%;
+  width: 6%;
+  height: auto;
+  z-index: -1;
+  margin-top: 5%;
+
+}
+
+.blurrer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blddur(3px);
+  z-index: 999;
+}
+
+
+.centered_div{
+  background-color: #F6FF75;  
+  z-index: 1000;
+  font-family: "NewEdge666-ultralightrounded";
+  position: fixed;
+
+  font-size: 20px;
+  margin-left: auto;
+  top: 20%;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding: 25px;
+  left: 25%;
+  height: auto;
+  white-space: pre-wrap;
+}
+
+.text_wrapper {
+  position: relative;
+  width: 100%;
+  height: auto;
+  top: 15%;
+  left: 0%;
+  z-index: 1;
+  margin-top: 30%;
+  margin-bottom: 30%;
+}
+.wrapper {
+  position: relative;
+  width: 100%;
+  height: auto;
+  top: 50%;
+  left: 0%;
+}
+.title_text {
+  position: relative;
+  top: -10%;
+  left:8%;
+  font-size: 150px;
+  color: rgb(0, 0, 255);
+  font-family: 'NewEdge666-ultralightroundedslanted';
+  text-align: left;
+  width: 100%;
+  letter-spacing: -7px;
+  margin: 0px;
+  line-height: 140px;
+}
+
+.title_paragraph {
+  position: relative;
+  top: 0%;
+  font-size: 20px;
+  color: rgb(0, 0, 255);
+  font-family: 'NewEdge666';
+  text-align: left;
+  width: 40%;
+  height: auto;
+  margin-bottom: 5%;
+  left:10%;
+}
+
+
+
+.sketchnote_left {
+  position: relative;
+  height: auto;
+  overflow: hidden;
+  box-shadow: -3px 3px 10px rgba(0, 0, 255, 0.1);
+  width:40%;
+  top: 0%;
+  left: 0%;
+  z-index: 8;
+  margin-bottom: 2%;
+}
+.container_left {
+  position: relative;
+  top: 0%;
+  left: 10%;
+  width: auto;
+  height: auto;
+  margin-bottom: -10%;
+}
+.click_2_read {
+  position: relative;
+  top: -22%;
+  left: 35%;
+  width: 13%;
+  height: auto;
+  z-index: 10;
+}
+
+.click_to_read {
+  position: relative;
+  top: -13%;
+  left: -8%;
+  width: 13%;
+  height: auto;
+  z-index: 10;
+  margin-bottom: -2%;
+}
+
+.description_text {
+  
+  color: #333;
+  font-size: 0.8vw;
+  padding: 0.7vw; 
+  width: 40%;
+  background-color: #F6FF75;  
+  height: auto;
+  font-family: "NewEdge666-ultralightrounded";
+  box-shadow: -3px 3px 10px rgba(0, 0, 255, 0.1);
+  white-space: pre-wrap;
+}
+.sketch_description_left {
+  position: absolute;
+  height: auto;
+  top: 2%;
+  left: 37%;
+  z-index: 5;
+  width: 50%;
+}
+.sketch_title_left {
+  position: absolute;
+  color: #333;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 5px;
+  width: auto;
+  height: auto; 
+  top:3%;
+  left: 36%;
+  z-index: 10;
+  font-size: 24px;
+  text-align: left;
+  font-family: "CharlieScript";
+  max-width:10%;
+  transform: rotate(10deg);
+}
+
+.sketchnote_right {
+  position: relative;
+  height: auto;
+  overflow: hidden;
+  box-shadow: -3px 3px 10px rgba(0, 0, 255, 0.1);
+  width:40%;
+  top: 0%;
+  left: 0%;
+  z-index: 8;
+  margin-bottom: 2%;
+}
+.container_right {
+  position: relative;
+  top: -10%;
+  right: -45%;
+  width: auto;
+  height: auto;
+  margin-bottom: -10%;
+}
+.sketch_description_right {
+  position: absolute;
+  top: 2%;
+  right: 70%;
+  height: auto;
+  z-index: 5;
+  width:50%;
+}
+.sketch_title_right {
+  position: absolute;
+  color: #333;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 5px;
+  width: auto;
+  height: auto; 
+  top:3%;
+  right: 95%;
+  z-index: 10;
+  font-size: 24px;
+  text-align: left;
+  font-family: "CharlieScript";
+  max-width: 10%;
+  transform: rotate(-10deg);
+}

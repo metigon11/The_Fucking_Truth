@@ -79,6 +79,8 @@ body {
   left: 25%;
   height: auto;
   white-space: pre-wrap;
+  overflow-y: scroll;
+  max-height: 60vh;
 }
 
 .text_wrapper {

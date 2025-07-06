@@ -64,7 +64,7 @@ body {
 
 
 .centered_div{
-  background-color: #F6FF75;  
+  background-color: rgb(209, 208, 255); 
   z-index: 1000;
   font-family: "NewEdge666-ultralightrounded";
   position: fixed;
@@ -103,20 +103,20 @@ body {
   position: relative;
   top: -10%;
   left:8%;
-  font-size: 150px;
+  font-size: 7vw;
   color: rgb(0, 0, 255);
   font-family: 'NewEdge666-ultralightroundedslanted';
   text-align: left;
   width: 100%;
-  letter-spacing: -7px;
+  letter-spacing: -0.3vw;
   margin: 0px;
-  line-height: 140px;
+  line-height: 6vw;
 }
 
 .title_paragraph {
   position: relative;
   top: 0%;
-  font-size: 20px;
+  font-size: 1vw;
   color: rgb(0, 0, 255);
   font-family: 'NewEdge666';
   text-align: left;
@@ -172,7 +172,8 @@ body {
   font-size: 0.8vw;
   padding: 0.7vw; 
   width: 40%;
-  background-color: #F6FF75;  
+  background-color: rgb(209, 208, 255); 
+  
   height: auto;
   font-family: "NewEdge666-ultralightrounded";
   box-shadow: -3px 3px 10px rgba(0, 0, 255, 0.1);

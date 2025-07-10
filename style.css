@@ -5,6 +5,16 @@
 @font-face { font-family: Serifbabe; font-weight: italic; src: url('fonts/SerifbabeALPHA-RegularItalic.otf');}
 @font-face { font-family: CharlieScript; src: url('fonts/CharlieScript-Regular.otf'); } 
 
+html, body {
+  overflow-x: hidden;
+}
+
+
+* {
+  outline: 1px solid red; /* nur zum Debuggen */
+}
+
+
 body {
   margin: 0;
   padding: 0;

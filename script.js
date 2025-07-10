@@ -55,7 +55,7 @@ function move_between_z(sketchnote) {
   clone.style.transform = 'translateY(0px)';
   clone.style.filter = 'blur(0px)';
   document.body.style.overflow = 'hidden';
-  document.addEventListener('click', () => {
+  window.addEventListener('click', () => {
     document.body.style.overflow = 'auto';
     clone.remove();
     newDiv.remove();

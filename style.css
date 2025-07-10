@@ -11,7 +11,7 @@ body {
   font-family: 'Arial', sans-serif;
   background-color: #F6FF75;  
   visibility: hidden; /* Hide content until fully loaded */
-  cursor: url('rsz_charlie_cursor.cur'), auto;
+  cursor: url('rsz_charlie_cursor.png'), auto;
   width: 100vw;
 }
 

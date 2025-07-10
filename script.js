@@ -56,7 +56,6 @@ function move_between_z(sketchnote) {
   clone.style.filter = 'blur(0px)';
   document.body.style.overflow = 'hidden';
   console.lo("added new div")
-  await new Promise(r => setTimeout(r, 2000));
   window.addEventListener('click', () => {
     document.body.style.overflow = 'auto';
     clone.remove();

@@ -41,12 +41,12 @@ body {
 }
 
 .logo_big {
-  position: fixed;
-  left: 2%;
+  position: sticky;
+  left: 2vh;
   width: 6%;
   height: auto;
-  z-index: -1;
-  margin-top: -28%;
+  top: 2vh;
+  margin-top: -28vh;
 
 }
 

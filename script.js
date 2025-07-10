@@ -35,7 +35,7 @@ function move_parallaxe(note_rect, title, description, sketchnote) {
       const descriptionspeed = space_to_move / ((note_rect.height-description_rect.height)+document.documentElement.clientHeight);
       const scrollY = -(description_rect.top - document.documentElement.clientHeight);
       console.log(descriptionspeed,scrollY, window.scrollY)
-      if (scrollY > 0) { 
+      if (scrollY > 0 && description_rect.height < note_rect.height) { 
         description.style.transform = `translateY(${scrollY * descriptionspeed}px)`;
         //description.style.transform = `translateY(${scrollY * descriptionspeed}px)`;
       }

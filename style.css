@@ -101,10 +101,10 @@ body {
 }
 .wrapper {
   position: relative;
-  width: 100%;
+  width: 95vw;
   height: auto;
   top: 50%;
-  left: 2vw;
+  left: 2.5vw;
 }
 .title_text {
   position: relative;
@@ -154,6 +154,7 @@ body {
   height: auto;
   margin-bottom: -10%;
   max-height: 85vw;
+  max-width:80vw;
 }
 .click_2_read {
   position: relative;
@@ -220,14 +221,14 @@ body {
   box-shadow: -3px 3px 10px rgba(0, 0, 255, 0.1);
   width:40%;
   top: 0%;
-  left: 0%;
+  left: 30vw;
   z-index: 8;
   margin-bottom: 2%;
 }
 .container_right {
   position: relative;
   top: -10%;
-  right: -45vw;
+  left: 10vw;
   width: auto;
   height: auto;
   margin-bottom: -10%;
@@ -236,10 +237,10 @@ body {
 .sketch_description_right {
   position: absolute;
   top: 2%;
-  right: 70%;
   height: auto;
   z-index: 5;
   width:50%;
+  left: 15vw;
 }
 .sketch_title_right {
   position: absolute;
@@ -257,4 +258,5 @@ body {
   font-family: "CharlieScript";
   max-width: 10%;
   transform: rotate(-10deg);
+  left: 25vw;
 }

@@ -42,10 +42,10 @@ body {
 
 .logo_big {
   position: sticky;
-  left: 2vh;
-  width: 8vh;
+  left: 2vw;
+  width: 8vw;
   height: auto;
-  top: 2vh;
+  top: 2vw;
   margin-top: -28vh;
 
 }

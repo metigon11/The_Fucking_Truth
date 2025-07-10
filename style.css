@@ -13,6 +13,7 @@ body {
   visibility: hidden; /* Hide content until fully loaded */
   cursor: url('rsz_charlie_cursor.png'), auto;
   width: 100vw;
+  overflow-x: hidden;
 }
 
 .overlay {

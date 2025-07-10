@@ -62,6 +62,12 @@ function move_between_z(sketchnote) {
     newDiv.remove();
     console.log("window click")
   });
+  newDiv.addEventListener('click', () => {
+    document.body.style.overflow = 'auto';
+    clone.remove();
+    newDiv.remove();
+    console.log("window click")
+  });
 }
 
 document.querySelectorAll('.sketch_description_left, .sketch_description_right').forEach(description => {

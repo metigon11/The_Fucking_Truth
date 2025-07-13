@@ -5,13 +5,16 @@
 @font-face { font-family: Serifbabe; font-weight: italic; src: url('fonts/SerifbabeALPHA-RegularItalic.otf');}
 @font-face { font-family: CharlieScript; src: url('fonts/CharlieScript-Regular.otf'); } 
 
+* {
+  cursor: url('rsz_charlie_cursor.png'), auto;  
+}
+
 body {
   margin: 0;
   padding: 0;
   font-family: 'Arial', sans-serif;
   background-color: #F6FF75;  
   visibility: hidden; /* Hide content until fully loaded */
-  cursor: url('rsz_charlie_cursor.png'), auto;
   width: 100vw;
   overflow-x: hidden;
 }

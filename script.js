@@ -2,6 +2,13 @@ const container = document.querySelectorAll('.container_left, .container_right')
 const text_wrapper = document.querySelector('.text_wrapper');
 const logo_big = document.querySelector('.logo_big');
 var in_front = false;
+const fakecursor = document.getElementById("fakecursor");
+document.addEventListener("mousemove", 
+ (e) => {
+   fakecursor.style.left = e.clientX + "px";
+   fakecursor.style.top = e.clientY + "px";
+ });
+
 
 function isPartiallyInViewport(el) {
   const rect = el.getBoundingClientRect();

@@ -6,7 +6,7 @@
 @font-face { font-family: CharlieScript; src: url('fonts/CharlieScript-Regular.otf'); } 
 
 * {
-  cursor: url('rsz_charlie_cursor.png'), auto;  
+  cursor: none;  
 }
 
 #fakecursor {

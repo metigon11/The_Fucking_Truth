@@ -9,6 +9,16 @@
   cursor: url('rsz_charlie_cursor.png'), auto;  
 }
 
+#fakecursor {
+  position: fixed;
+  width: 32px;
+  height: 32px;
+  background-image: url('rsz_charlie_cursor.png');
+  background-size: contain;
+  pointer-events: none;
+  z-index: 9999;
+}
+
 body {
   margin: 0;
   padding: 0;

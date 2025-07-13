@@ -11,8 +11,8 @@
 
 #fakecursor {
   position: fixed;
-  width: 32px;
-  height: 32px;
+  width: 6vh;
+  height: 6vh;
   background-image: url('rsz_charlie_cursor.png');
   background-size: contain;
   pointer-events: none;
